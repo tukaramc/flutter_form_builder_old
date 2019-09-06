@@ -52,7 +52,7 @@ class FormBuilderState extends State<FormBuilder> {
 
   @override
   void dispose() {
-    _fieldKeys = null;
+//     _fieldKeys = null;
     super.dispose();
   }
 
