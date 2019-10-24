@@ -269,8 +269,8 @@ class FormBuilderDateRangePickerState
 
   @override
   void dispose() {
-    _formState?.unregisterFieldKey(widget.attribute);
-    _effectiveController.dispose();
+  //  _formState?.unregisterFieldKey(widget.attribute);
+    //_effectiveController.dispose();
     super.dispose();
   }
 }
