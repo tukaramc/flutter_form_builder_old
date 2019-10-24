@@ -63,7 +63,7 @@ class _FormBuilderSignaturePadState extends State<FormBuilderSignaturePad> {
 
   @override
   void dispose() {
-    _formState?.unregisterFieldKey(widget.attribute);
+    //_formState?.unregisterFieldKey(widget.attribute);
     super.dispose();
   }
 
