@@ -52,7 +52,7 @@ class _FormBuilderRateState extends State<FormBuilderRate> {
 
   @override
   void dispose() {
-    _formState?.unregisterFieldKey(widget.attribute);
+    //_formState?.unregisterFieldKey(widget.attribute);
     super.dispose();
   }
 
