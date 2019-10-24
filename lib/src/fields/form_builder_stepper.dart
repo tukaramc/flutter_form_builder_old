@@ -54,7 +54,7 @@ class _FormBuilderStepperState extends State<FormBuilderStepper> {
 
   @override
   void dispose() {
-    _formState?.unregisterFieldKey(widget.attribute);
+   // _formState?.unregisterFieldKey(widget.attribute);
     super.dispose();
   }
 
