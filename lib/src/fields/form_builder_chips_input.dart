@@ -60,7 +60,7 @@ class _FormBuilderChipsInputState extends State<FormBuilderChipsInput> {
 
   @override
   void dispose() {
-    _formState?.unregisterFieldKey(widget.attribute);
+   // _formState?.unregisterFieldKey(widget.attribute);
     super.dispose();
   }
 
