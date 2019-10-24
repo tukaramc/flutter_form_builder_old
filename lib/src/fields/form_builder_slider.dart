@@ -63,7 +63,7 @@ class _FormBuilderSliderState extends State<FormBuilderSlider> {
 
   @override
   void dispose() {
-    _formState?.unregisterFieldKey(widget.attribute);
+   // _formState?.unregisterFieldKey(widget.attribute);
     super.dispose();
   }
 
