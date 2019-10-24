@@ -62,7 +62,7 @@ class _FormBuilderRangeSliderState extends State<FormBuilderRangeSlider> {
 
   @override
   void dispose() {
-    _formState?.unregisterFieldKey(widget.attribute);
+    //_formState?.unregisterFieldKey(widget.attribute);
     super.dispose();
   }
 
