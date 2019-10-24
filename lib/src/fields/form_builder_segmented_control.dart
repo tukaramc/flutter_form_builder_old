@@ -67,7 +67,7 @@ class _FormBuilderSegmentedControlState
 
   @override
   void dispose() {
-    _formState?.unregisterFieldKey(widget.attribute);
+    //_formState?.unregisterFieldKey(widget.attribute);
     super.dispose();
   }
 
